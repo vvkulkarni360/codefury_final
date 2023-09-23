@@ -1,6 +1,12 @@
 .container{
     background-color: #EDE8FE;
 }
+.chat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5cm;
+}
 .App {
   text-align: center;
 }

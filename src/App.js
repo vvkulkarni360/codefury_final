@@ -1,9 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import Home from './components/home';
 import Loader from './components/loader';
 import Signup from './components/signup';
 import Login from './components/login';
+import Main from './components/main';
+import ChatBotFeature from './components/chatbotfeature';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Loader />
       <Signup />
       <Login />
+      <Main />
+      <ChatBotFeature />
     </div>
   );
 }
