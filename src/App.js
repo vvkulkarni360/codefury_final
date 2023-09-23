@@ -5,7 +5,9 @@ import Loader from './components/loader';
 import Signup from './components/signup';
 import Login from './components/login';
 import Main from './components/main';
+import AI from './components/aiprompt';
 import ChatBotFeature from './components/chatbotfeature';
+import CheerUp from './components/cheerup';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Login />
       <Main />
       <ChatBotFeature />
+      <AI />
+      <CheerUp />
     </div>
   );
 }
