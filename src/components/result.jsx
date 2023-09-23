@@ -20,7 +20,7 @@ import { QuizContext } from './QuizHolder';
                 <h2 className='text-2xl p-3 my-2'>{correctB} are Rarely</h2>
                 <h2 className='text-2xl p-3 my-2'>{correctC} are Often</h2>
                 <h2 className='text-2xl p-3 my-2'>{correctD} are All of the time</h2>
-                <button onClick={playAgain} className='border border-orange-500 p-3 text-2xl rounded'>Play agian</button>
+                <button onClick={playAgain} className='border border-pink-500 p-3 text-2xl rounded'>Play agian</button>
             </div>
         </div>
     )
